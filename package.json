@@ -1,0 +1,17 @@
+{
+  "name": "ai-for-developers-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "spec:build": "tsp compile .",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:test": "npm --prefix backend run test",
+    "frontend:test:e2e": "npm --prefix frontend run test:e2e"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "latest",
+    "@typespec/http": "latest",
+    "@typespec/openapi3": "latest"
+  }
+}
