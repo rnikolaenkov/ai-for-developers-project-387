@@ -30,4 +30,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         with:
-          model: huggingface/MiniMaxAI/MiniMax-M2.7
+          model: huggingface/moonshotai/Kimi-K2.5
