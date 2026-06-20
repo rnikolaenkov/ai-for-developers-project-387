@@ -28,6 +28,6 @@ jobs:
       - name: Run opencode
         uses: anomalyco/opencode/github@latest
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          KILO_API_KEY: ${{ secrets.KILO_API_KEY }}
         with:
-          model: huggingface/moonshotai/Kimi-K2.5
+          model: kilo/deepseek/deepseek-v4-flash
